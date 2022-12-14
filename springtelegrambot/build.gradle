@@ -1,0 +1,11 @@
+dependencies {
+    implementation project(':telegram-spring')
+    implementation 'org.telegram:telegrambots:6.3.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.flywaydb:flyway-core'
+    implementation 'com.vdurmont:emoji-java:4.0.0'
+    compileOnly 'org.projectlombok:lombok'
+    implementation'org.postgresql:postgresql:42.2.8'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'springtelegrambot'
+include 'telegram-spring'
+include 'springtelegrambot'
